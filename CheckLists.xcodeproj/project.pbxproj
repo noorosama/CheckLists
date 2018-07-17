@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363277132042B4A300E52782 /* Checklistitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363277122042B4A300E52782 /* Checklistitem.swift */; };
+		36327715204449EE00E52782 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36327714204449EE00E52782 /* AddItemTableViewController.swift */; };
 		367D5BCD203C440400EBA0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367D5BCC203C440400EBA0A6 /* AppDelegate.swift */; };
-		367D5BCF203C440400EBA0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367D5BCE203C440400EBA0A6 /* ViewController.swift */; };
+		367D5BCF203C440400EBA0A6 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367D5BCE203C440400EBA0A6 /* ChecklistViewController.swift */; };
 		367D5BD2203C440400EBA0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367D5BD0203C440400EBA0A6 /* Main.storyboard */; };
 		367D5BD4203C440400EBA0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367D5BD3203C440400EBA0A6 /* Assets.xcassets */; };
 		367D5BD7203C440400EBA0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367D5BD5203C440400EBA0A6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		363277122042B4A300E52782 /* Checklistitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklistitem.swift; sourceTree = "<group>"; };
+		36327714204449EE00E52782 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
 		367D5BC9203C440400EBA0A6 /* CheckLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367D5BCC203C440400EBA0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		367D5BCE203C440400EBA0A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		367D5BCE203C440400EBA0A6 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		367D5BD1203C440400EBA0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		367D5BD3203C440400EBA0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		367D5BD6203C440400EBA0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				367D5BCC203C440400EBA0A6 /* AppDelegate.swift */,
-				367D5BCE203C440400EBA0A6 /* ViewController.swift */,
+				367D5BCE203C440400EBA0A6 /* ChecklistViewController.swift */,
+				363277122042B4A300E52782 /* Checklistitem.swift */,
+				36327714204449EE00E52782 /* AddItemTableViewController.swift */,
 				367D5BD0203C440400EBA0A6 /* Main.storyboard */,
 				367D5BD3203C440400EBA0A6 /* Assets.xcassets */,
 				367D5BD5203C440400EBA0A6 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				367D5BCF203C440400EBA0A6 /* ViewController.swift in Sources */,
+				36327715204449EE00E52782 /* AddItemTableViewController.swift in Sources */,
+				367D5BCF203C440400EBA0A6 /* ChecklistViewController.swift in Sources */,
+				363277132042B4A300E52782 /* Checklistitem.swift in Sources */,
 				367D5BCD203C440400EBA0A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U36G94Q8F;
 				INFOPLIST_FILE = CheckLists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nour.CheckLists;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U36G94Q8F;
 				INFOPLIST_FILE = CheckLists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nour.CheckLists;
